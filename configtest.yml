@@ -6,9 +6,9 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://10.181.3.75:3307/ferny-admin-uat?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://127.0.0.1:8080/admin-test?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
     username: root
-    password: Qoros111
+    password: Root111
   cloud:
     consul:
       enabled: true
